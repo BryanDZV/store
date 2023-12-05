@@ -1,0 +1,227 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Dhurjati', sans-serif;
+}
+
+header {
+  /* font-size: 10px; */
+  display: flex;
+  background-color: white;
+  min-height: 15vh;
+  width: 98vw;
+  position: relative;
+  justify-content: space-between;
+}
+header div.buscador h1.buscador-login p3{
+
+font-size: 16px;
+
+font-weight: normal;
+}
+header div.buscador h1.buscador-login p3 + p4{
+
+font-size: 16px;
+
+font-weight: normal;
+}
+header div.buscador h2{
+
+font-size: 16px;
+
+font-weight: normal;
+
+/* display: flex; */
+}
+.titulo{
+    
+font-weight: bold;
+    
+font-size: 27px;
+    
+gap: 5px;
+    
+display: flex;
+    
+flex-direction: column;
+    
+justify-content: flex-end;
+}
+
+.buscador{
+
+gap: -4px;
+
+display: flex;
+
+justify-content: flex-end;
+
+flex-direction: column;
+
+align-items: center;
+}
+
+nav{
+  
+gap: 9px;
+  
+display: flex;
+  
+align-items: flex-end;
+}
+
+body > header > div.titulo > p2{
+  font-size: 13px;
+    font-weight: normal;
+}
+
+.desplegable1{
+    display: inline-block;
+    position: relative;
+    width: max-content;
+}
+.botones{
+    background-color: white;
+    font-size: 15px;
+}
+.desplegable1-contenido{
+    display: none;
+    position: absolute;
+}
+.desplegable1:hover .desplegable1-contenido{
+
+    display: block;
+}
+
+.desplegable1-contenido a{
+    display: block;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.desplegable1-contenido a:hover{
+    color:rgb(127, 155, 255) ;
+    
+}
+
+.ropa {
+  max-width: 300px;
+}
+
+.ropa-img {
+  width: 90%;
+  margin: 0 auto;
+}
+.ropa-img > img{
+  object-fit: cover;
+  width: 100%;
+  object-position: center;
+  max-height: 256px;
+}
+main {
+  background-color: white;
+  min-height: 200vh;
+}
+
+.ropas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+section.mujeres{
+  display: flex;
+  border-image: linear-gradient(to bottom, #d3cecede, #c3cac391, #dedee34a)1;
+  border-bottom: 5px solid #9E9E9E;
+  background-color: white;
+  min-height: 15vh;
+  width: 96vw;
+  position: relative;
+  top: 0px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.margen1{
+  /* display: inline; */
+  position: relative;
+  display: flex;
+  font-size: 12px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.margen2{
+  position: relative;
+  display: flex;
+  font-size: 12px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.margen3{
+  margin: 6px;
+  border: 35px;
+  padding: 11px;
+  gap: 10px;
+  display: flex;
+  font-size: 6px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul{
+  font-size: 7px;
+}
+.telefono{
+
+font-size: 9px;
+
+gap: 48px;
+
+display: flex;
+
+flex-direction: row;
+
+flex-wrap: wrap;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.margen1 p{
+  font-size: 9px;
+
+}
+
+footer {
+  border-image: linear-gradient(to top, #d3cecede, #c3cac391, #dedee34a)1;
+  border-top: 5px solid transparent;
+  background-color: #fff;
+  min-height: 16vh;
+  width: 100vw;
+  position: relative;
+  bottom: 0px;
+  display: flex;
+}
+
+
+
+
+
+
+
