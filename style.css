@@ -1,16 +1,11 @@
 
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Dhurjati&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'Dhurjati', sans-serif;
+  font-family: "Dhurjati", sans-serif;
 }
 
 header {
@@ -18,116 +13,155 @@ header {
   display: flex;
   background-color: white;
   min-height: 15vh;
-  width: 98vw;
+  width: 94vw;
   position: relative;
   justify-content: space-between;
 }
-header div.buscador h1.buscador-login p3{
+header div.buscador h1.buscador-login p3 {
+  font-size: 16px;
 
-font-size: 16px;
-
-font-weight: normal;
+  font-weight: normal;
 }
-header div.buscador h1.buscador-login p3 + p4{
+header div.buscador h1.buscador-login p3 + p4 {
+  font-size: 16px;
 
-font-size: 16px;
-
-font-weight: normal;
+  font-weight: normal;
 }
-header div.buscador h2{
+header div.buscador h2 {
+  font-size: 16px;
 
-font-size: 16px;
+  font-weight: normal;
 
-font-weight: normal;
-
-/* display: flex; */
+  /* display: flex; */
 }
-.titulo{
-    
-font-weight: bold;
-    
-font-size: 27px;
-    
-gap: 5px;
-    
-display: flex;
-    
-flex-direction: column;
-    
-justify-content: flex-end;
-}
-
-.buscador{
-
-gap: -4px;
-
-display: flex;
-
-justify-content: flex-end;
-
-flex-direction: column;
-
-align-items: center;
-}
-
-nav{
-  
-gap: 9px;
-  
-display: flex;
-  
-align-items: flex-end;
-}
-
-body > header > div.titulo > p2{
+body > header > div.titulo > div.menu-horizontal {
+  position: relative;
   font-size: 13px;
+  font-weight: normal;
+  top: -11px;
+}
+body > header > div.titulo > div.menu-horizontal > p2 {
+  color: #80808082;
+    font-size: 13px;
     font-weight: normal;
 }
+body > header > div.titulo > div.menu-horizontal > p2p {
+  font-size: 13px;
+  font-weight: normal;
+}
 
-.desplegable1{
-    display: inline-block;
+.titulo {
+  font-weight: bold;
+  font-size: 48px;
+  gap: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.bloque-derecha {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: stretch;
+  flex-direction: column;
+}
+.bloque-buscador-login{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.vof{
+  bottom: 3%;
+  left: 30%;
+  position: relative;
+  width: 70%;
+  height: 28%;
+  gap: 4%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  flex-direction: row;
+}
+.bloque-derecha > .bloque-buscador-login> .loginycompra > a img{
+  
+height: 18px;
+  
+display: inline-block;
+  
+flex-wrap: wrap;
+}
+input[type="search"] {
+    top: 37%;
     position: relative;
-    width: max-content;
+    border: 1px solid;
+    outline: none;
+    height: 18px;
 }
-.botones{
-    background-color: white;
-    font-size: 15px;
-}
-.desplegable1-contenido{
-    display: none;
-    position: absolute;
-}
-.desplegable1:hover .desplegable1-contenido{
-
-    display: block;
+.loginycompra {
+    top: 31%;
+    position: relative;
+    height: max-content;
+    max-width: max-content;
 }
 
-.desplegable1-contenido a{
-    display: block;
-    color: black;
-    padding: 5px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+
+nav {
+  z-index: 9999;
+  position: relative;
+  width: max-content;
 }
 
-.desplegable1-contenido a:hover{
-    color:rgb(127, 155, 255) ;
-    
+.desplegables {
+  background: transparent;
+  top: 70%;
+  position: absolute;
+}
+.botones {
+  background-color: white;
+  font-size: 17px;
+}
+.desplegablesmujeryhombre {
+  display: none;
+  position: relative;
+  width: max-content;
+  overflow: auto;
+  /* box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4); */
+}
+.desplegables:hover .desplegablesmujeryhombre {
+  display: block;
+}
+
+.desplegablesmujeryhombre a {
+  display: block;
+  color: #F44336;
+  padding: 1px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.desplegablesmujeryhombre a:hover {
+  color: rgb(127, 155, 255);
 }
 
 .ropa {
   max-width: 300px;
 }
-
+section {
+  gap: 59px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
 .ropa-img {
   width: 90%;
   margin: 0 auto;
 }
-.ropa-img > img{
+.ropa-img > img {
   object-fit: cover;
   width: 100%;
   object-position: center;
-  max-height: 256px;
+  max-height: 273px;
 }
 main {
   background-color: white;
@@ -141,10 +175,10 @@ main {
   flex-direction: row;
 }
 
-section.mujeres{
+section.mujeres {
   display: flex;
-  border-image: linear-gradient(to bottom, #d3cecede, #c3cac391, #dedee34a)1;
-  border-bottom: 5px solid #9E9E9E;
+  border-image: linear-gradient(to bottom, #d3cecede, #c3cac391, #dedee34a) 1;
+  border-bottom: 5px solid #9e9e9e;
   background-color: white;
   min-height: 15vh;
   width: 96vw;
@@ -154,7 +188,7 @@ section.mujeres{
   flex-wrap: wrap;
   flex-direction: row;
 }
-.margen1{
+.margen1 {
   /* display: inline; */
   position: relative;
   display: flex;
@@ -164,7 +198,7 @@ section.mujeres{
   align-items: center;
   flex-direction: column;
 }
-.margen2{
+.margen2 {
   position: relative;
   display: flex;
   font-size: 12px;
@@ -173,7 +207,7 @@ section.mujeres{
   justify-content: space-between;
   align-items: center;
 }
-.margen3{
+.margen3 {
   margin: 6px;
   border: 35px;
   padding: 11px;
@@ -184,32 +218,30 @@ section.mujeres{
   flex-direction: row;
   justify-content: space-between;
 }
-ul{
+ul {
   font-size: 7px;
 }
-.telefono{
-
-font-size: 9px;
-
-gap: 48px;
-
-display: flex;
-
-flex-direction: row;
-
-flex-wrap: wrap;
-
-justify-content: space-between;
-
-align-items: center;
-}
-.margen1 p{
+.telefono {
   font-size: 9px;
 
+  gap: 48px;
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+.margen1 p {
+  font-size: 9px;
 }
 
 footer {
-  border-image: linear-gradient(to top, #d3cecede, #c3cac391, #dedee34a)1;
+  border-image: linear-gradient(to top, #d3cecede, #c3cac391, #dedee34a) 1;
   border-top: 5px solid transparent;
   background-color: #fff;
   min-height: 16vh;
@@ -218,10 +250,32 @@ footer {
   bottom: 0px;
   display: flex;
 }
+.ropa-descripcion {
+  height: max-content;
+  bottom: 5%;
+  display: flex;
+  position: relative;
+  text-align: center;
+  font-size: 8px;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+}
 
+input[type="email"] {
+  top: 37%;position: relative;
+  border: 1px solid;
+  outline: none;
+  height: 18px;}
+  p {
+    inline-size: 151px;
+    line-height: 11px;
+    /* text-align: justify; */
+}
 
-
-
-
-
-
+p1 {
+  display: flex;
+  /* display: inline-block; */
+  position: relative;
+  justify-content: flex-end;
+}
