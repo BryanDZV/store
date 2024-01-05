@@ -159,9 +159,9 @@ section {
 }
 .ropa-img > img {
   object-fit: cover;
-  width: 100%;
+  width: 76%;
   object-position: center;
-  max-height: 273px;
+  max-height: 290px;
 }
 main {
   background-color: white;
